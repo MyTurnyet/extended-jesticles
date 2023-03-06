@@ -1,6 +1,7 @@
 {
   "name": "@paigewatson/extended-jesticles",
   "version": "1.0.0",
-  "dependencies": {
+  "devDependencies": {
+    "typescript": "^4.9.5"
   }
 }
