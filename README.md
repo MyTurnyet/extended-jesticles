@@ -5,6 +5,6 @@ even more custom matchers for jest
 
 <hr />
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/MyTurnyet/extended-jesticles/ci.yaml?style=flat-square)](https://github.com/MyTurnyet/extended-jesticles/actions/workflows/ci.yml)
-[![version](https://img.shields.io/npm/v/extended-jesticles.svg?style=flat-square)](https://www.npmjs.com/package/extended-jesticles)
+[![GitHub CI](https://img.shields.io/github/actions/workflow/status/MyTurnyet/extended-jesticles/ci.yml)](https://github.com/MyTurnyet/extended-jesticles/actions/workflows/ci.yml)
+[![version](https://img.shields.io/npm/v/extended-jesticles.svg?style=flat)](https://www.npmjs.com/package/extended-jesticles)
 
