@@ -46,6 +46,7 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "test": "jest --config jest.config.js",
+    "typecheck": "tsc --noEmit ./src/types/expectations.d.ts",
     "version": "npm run format && git add -A src"
   }
 }
