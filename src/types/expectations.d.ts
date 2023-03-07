@@ -6,7 +6,7 @@ declare global {
       //react
       toHaveElementsWithText(...expectedText: string[]): R;
       //arrays
-      toMatchInAnyOrder(expectedArray: any[]):R;
+      toMatchInAnyOrder(expectedArray: any[]): R;
     }
   }
 }

@@ -19,9 +19,8 @@ describe('Array expectations', () => {
   describe('does not match', () => {
     it('if lists arent the same', () => {
       const actualList: number[] = [1, 2, 3, 4];
-      const expectedList: number[] = [1,2];
+      const expectedList: number[] = [1, 2];
       expect(actualList).not.toMatchInAnyOrder(expectedList);
-
     });
   });
 });
