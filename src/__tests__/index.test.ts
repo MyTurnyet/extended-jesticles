@@ -1,4 +1,4 @@
-import {Greeter} from '../index';
+import {Greeter} from '../expectations';
 
 describe('Greeter', () => {
     it('returns hello Paige', () => {
