@@ -13,7 +13,7 @@ const TestComponent = () => {
     </div>
   );
 };
-describe('react expectations', () => {
+describe('React expectations', () => {
   let testComponent: RenderResult;
   beforeEach(() => {
     testComponent = render(<TestComponent />);
@@ -28,10 +28,10 @@ describe('react expectations', () => {
   });
   describe('toNotHaveElementsWithText', () => {
     it('does not have element with text', () => {
-      expect(testComponent).toNotHaveElementsWithText('nonsense');
+      expect(testComponent).not.toHaveElementsWithText('nonsense');
     });
     it('does not have elements with any texts', () => {
-      expect(testComponent).toNotHaveElementsWithText('nonsense', 'baz', 'bar!');
+      expect(testComponent).not.toHaveElementsWithText('nonsense', 'baz', 'bar!');
     });
   });
 });
