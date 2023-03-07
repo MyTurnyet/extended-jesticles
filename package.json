@@ -2,8 +2,8 @@
   "name": "@paigewatson/extended-jesticles",
   "version": "1.0.0",
   "description": "more extended expectations for Jest",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/expectations.js",
+  "types": "types/expectations.d.ts",
   "files": [
     "lib/**/*"
   ],
