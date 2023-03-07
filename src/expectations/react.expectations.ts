@@ -2,14 +2,14 @@ import CustomMatcherResult = jest.CustomMatcherResult;
 import { RenderResult } from '@testing-library/react';
 import { expect } from '@jest/globals';
 
-function createPassingResult(): CustomMatcherResult {
+export function createPassingResult(): CustomMatcherResult {
   return {
     pass: true,
     message: () => '',
   };
 }
 
-function createFailingResult(message: string): CustomMatcherResult {
+export function createFailingResult(message: string): CustomMatcherResult {
   return {
     pass: false,
     message: () => message,
