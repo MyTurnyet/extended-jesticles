@@ -1,6 +1,6 @@
 {
   "name": "extended-jesticles",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "more extended expectations for Jest",
   "main": "index.js",
   "types": "index.d.ts",
