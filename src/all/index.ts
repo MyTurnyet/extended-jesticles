@@ -1,4 +1,5 @@
 import { expect } from '@jest/globals';
+import * as matchers from '../expectations';
 
 if (expect === undefined) {
   throw new Error(
@@ -6,4 +7,6 @@ if (expect === undefined) {
       'Please check you have added jest-extended correctly to your jest configuration. ' +
       'See https://github.com/jest-community/jest-extended#setup for help.',
   );
+} else {
+  expect.extend(matchers);
 }
