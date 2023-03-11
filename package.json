@@ -1,9 +1,9 @@
 {
   "name": "extended-jesticles",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "more extended expectations for Jest",
   "main": "lib/index.js",
-  "types": "types/extended-jesticles.d.ts",
+  "types": "lib/types/extended-jesticles.d.ts",
   "files": [
     "lib",
     "types/extended-jesticles.d.ts",
@@ -28,6 +28,7 @@
     "@types/jest": "^29.4.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "copyfiles": "^2.4.1",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.1.2",
     "prettier": "^2.8.4",
@@ -39,6 +40,7 @@
     "typescript": "^4.9.5"
   },
   "scripts": {
+    "copy-typescript-definitions": "copyfiles -u 1 \"src/types/*.d.ts\" lib",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
