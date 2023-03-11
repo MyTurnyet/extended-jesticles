@@ -1,12 +1,12 @@
 {
   "name": "extended-jesticles",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "more extended expectations for Jest",
   "main": "lib/index.js",
-  "types": "types/index.d.ts",
+  "types": "types/extended-jesticles.d.ts",
   "files": [
     "lib",
-    "types/index.d.ts",
+    "types/extended-jesticles.d.ts",
     "all.js"
   ],
   "repository": {
@@ -47,7 +47,7 @@
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
     "test": "jest --config jest.config.js",
-    "typecheck": "tsc --noEmit src/types/index.d.ts",
+    "typecheck": "tsc --noEmit src/types/extended-jesticles.d.ts",
     "version": "npm run format && git add -A src"
   }
 }
