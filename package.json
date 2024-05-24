@@ -2,11 +2,11 @@
   "name": "extended-jesticles",
   "version": "1.0.8",
   "description": "more extended expectations for Jest",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "files": [
-    "lib/**/*",
-    "all.js"
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -36,11 +36,12 @@
     "ts-jest": "^29.0.5",
     "tslint": "^6.1.3",
     "tslint-config-prettier": "^1.18.0",
+    "tsup": "^8.0.2",
     "typescript": "^4.9.5"
   },
   "scripts": {
     "copy-typescript-definitions": "copyfiles -u 1 \"src/types/*.d.ts\" lib",
-    "build": "tsc",
+    "build": "tsup",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "postversion": "git push && git push --tags",
