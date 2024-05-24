@@ -1,7 +1,7 @@
 {
   "name": "extended-jesticles",
-  "version": "1.0.8",
-  "description": "more extended expectations for Jest",
+  "version": "1.0.9",
+  "description": "More extended expectations React and Jest",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",

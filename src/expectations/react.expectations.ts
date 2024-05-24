@@ -1,4 +1,3 @@
-
 import { RenderResult } from '@testing-library/react';
 
 export function createPassingResult(): jest.CustomMatcherResult {

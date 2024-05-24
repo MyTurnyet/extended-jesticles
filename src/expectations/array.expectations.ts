@@ -1,6 +1,4 @@
-import { expect } from '@jest/globals';
 import { createFailingResult, createPassingResult } from './react.expectations';
-
 
 export function toMatchInAnyOrder(actualArray: any[], expectedArray: any[]): jest.CustomMatcherResult {
   try {
